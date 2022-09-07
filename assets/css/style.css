@@ -17,9 +17,9 @@ header h1{
     color: rgb(1, 30, 49);
 }
 
-/* nav {
-   padding: 10px; 
-}  */
+nav a {
+   margin: 10px;
+} 
 
 header .Hunter{
     color: rgb(8, 112, 119);
@@ -30,7 +30,13 @@ main{
     display: flex;
     flex-direction: column;
     color: white;
-    text-align: center;
+    /* text-align: center; */
+}
+
+.container {
+max-width: 920px;
+display:block;
+margin: 0 auto;
 }
 
 .box {
@@ -40,19 +46,38 @@ main{
     border-color: rgb(216, 100, 5);
     padding: 5px;
     margin: 50px;
-    word-wrap: break-word;
+    
 
 }
-.box img {
+.responsive-img {
     display: block;
     margin-left:auto;
     margin-right:auto;
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    max-width: 100%;
 }
 footer {
     text-align: center;
     color: white;
+}
+
+#welcome .box {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+}
+
+.mini-projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+@media (max-width: 767px) {
+#welcome .box, .mini-projects {
+    display: block;
+}
+
 }
 /* 992px maxwidth
 .box to style boxes */
