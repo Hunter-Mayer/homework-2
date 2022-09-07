@@ -4,7 +4,7 @@
 }
 /* Added background color to page */
 body {
-    background-color: rgb(1, 30, 49);
+    background-color: rgb(8, 112, 119);
 }
 /*Added Header styles*/
 header {
@@ -18,7 +18,7 @@ header h1{
 }
 
 /* nav {
-    
+   padding: 10px; 
 }  */
 
 header .Hunter{
@@ -29,6 +29,30 @@ header .Hunter{
 main{
     display: flex;
     flex-direction: column;
-    color: aliceblue;
+    color: white;
+    text-align: center;
 }
 
+.box {
+
+    border: 5px;
+    border-style: dashed;
+    border-color: rgb(216, 100, 5);
+    padding: 5px;
+    margin: 50px;
+    word-wrap: break-word;
+
+}
+.box img {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 50%;
+    height: 50%;
+}
+footer {
+    text-align: center;
+    color: white;
+}
+/* 992px maxwidth
+.box to style boxes */
