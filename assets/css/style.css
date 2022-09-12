@@ -73,6 +73,11 @@ footer {
     gap: 20px;
 }
 
+/* Gets rid of bullet points on the ul */
+ul {
+  list-style-type:none; 
+}
+
 @media (max-width: 767px) {
 #welcome .box, .mini-projects {
     display: block;
