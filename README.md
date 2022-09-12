@@ -28,7 +28,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 Github Repo: add
 
-Github Page: add
+Github Page: https://hunter-mayer.github.io/homework-2/
 
 ## Credits
 
