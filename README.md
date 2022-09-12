@@ -20,13 +20,13 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ### Screenshot
 
-![screenshot](add)
+![screenshot](/assets/images/Challenge_2_Screencapture.png)
 
 
 
 ### Deployed Application Links
 
-Github Repo: add
+Github Repo: https://github.com/Hunter-Mayer/homework-2
 
 Github Page: https://hunter-mayer.github.io/homework-2/
 
